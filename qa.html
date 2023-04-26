@@ -36,6 +36,8 @@
           rel="apple-touch-icon">
 
 
+
+
 </head>
 <body>
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
@@ -383,11 +385,20 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="cals">
+                    <input type="text" name="num1" oninput="changeHandler(this)" class="cals-input"  />
+                    <select name="op" class="cals-op">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiply">*</option>
+                        <option value="divide">/</option>
+                    </select>    
+                    <input type="text" name="num2" class="cals-input" oninput="changeHandler(this)"/>
+                    <button type="button" class="cals-calculate">=</button>
+                    <input type="text" readonly class="cals-input cals-result" />
                 </div>
-            </div>
-            <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
         </div>
+        <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
     </div>
 </div>
 <div class="sticky-fotter wf-section">
@@ -405,5 +416,8 @@
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 <!-- secret commit -->
+
+
+<script src="resources/cals.js"></script>
 </body>
 </html>
