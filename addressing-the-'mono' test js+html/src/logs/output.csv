@@ -1,0 +1,4 @@
+Currency A;Currency B;Rate (buy);Rate (sell);Rate (cross)
+{"currencyCodeA":"USD";"currencyCodeB":"UAH";"rateBuy":"36.65";"rateSell":"37.4406";"rateCross":"-"}
+{"currencyCodeA":"EUR";"currencyCodeB":"UAH";"rateBuy":"40.3";"rateSell":"41.5007";"rateCross":"-"}
+{"currencyCodeA":"EUR";"currencyCodeB":"USD";"rateBuy":"1.094";"rateSell":"1.107";"rateCross":"-"}
