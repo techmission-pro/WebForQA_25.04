@@ -46,6 +46,18 @@
 			display: inline-block;
 			width: 1em;
 			height: 1em;
+			
+			width: 24px;
+			height: 24px;
+		}
+
+		.div-block-6:nht-child(2n) {
+			background-color: #888;
+			color: blue;
+		}	
+		
+		.div-block-6:nth-child(2n) .text-block-5 {
+			color: blue;
 		}	
 	</style>		
 </head>
@@ -399,7 +411,12 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+				<div class="calc">
+					<input type="text" name="num1" class="class-input" />
+					+
+					<input type="text" name="num2" class="class-input" />
+					<button type="button">=</button>
+					<span class="calc-result"></span>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
