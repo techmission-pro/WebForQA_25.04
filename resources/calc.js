@@ -1,1 +1,11 @@
-document.querySelector('.calc-calculate').
+console.log('Calc loaded');
+
+document.querySelector('.calc-calculate').addEventListener('click', functionc () {
+   const num1 = +document.querySelector('[name="num1"]').value;
+   const num2 = +document.querySelector('[name="num2"]').value;
+
+   const sum = num1 + num2;
+
+document.querySelector('.calc-result').value = sum;
+
+});
