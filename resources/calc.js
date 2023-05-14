@@ -1,6 +1,6 @@
 console.log('Calc loaded');
 
-document.querySelector('.calc-calculate').addEventListener('click', functionc () {
+document.querySelector('.calc-calculate').addEventListener('click', function (){
    const num1 = +document.querySelector('[name="num1"]').value;
    const num2 = +document.querySelector('[name="num2"]').value;
 
