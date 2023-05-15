@@ -1,4 +1,4 @@
-	 function calcuiate() {
+	 function calculate() {
 	   const num1 = +document.querySelector('[name="num1"]').value;
 	   const num2 = +document.querySelector('[name="num2"]').value;
        const op = document.querySelector('[name="op"]').value;
@@ -29,10 +29,10 @@ document.querySelector('[name="op"]').addEventListener('change', function() {
     calculate();
 });
 
-document.querySelector('[name="op"]').addEventListener('change', function() {
+document.querySelector('[name="num1"]').addEventListener('change', function() {
     calculate();
 });
 
-document.querySelector('[name="op"]').addEventListener('change', function() {
+document.querySelector('[name="num2"]').addEventListener('change', function() {
     calculate();
 });
