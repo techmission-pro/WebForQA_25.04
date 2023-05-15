@@ -28,10 +28,10 @@ document.querySelector('[name="op"]').addEventListener('change', function() {
 	calculate();
 });
 
-document.querySelector('[name="num1"]').addEventListener('change', function() {
+document.querySelector('[name="num1"]').addEventListener('input', function() {
 	calculate();
 });
 
-document.querySelector('[name="num2"]').addEventListener('change', function() {
+document.querySelector('[name="num2"]').addEventListener('input', function() {
 	calculate();
 });
